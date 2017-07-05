@@ -1,8 +1,7 @@
 Package: sugaR
 Type: Package
 Version: 0.0.1
-Authors@R: person("Jean-Marie", "Lepioufle", , "jm@nexmodeling.com", c("aut","cre"),
-           person("nexModeling", role = "cph"))
+Authors@R: c(person("Jean-Marie", "Lepioufle", , "me@jeanmarie.eu", c("aut","cre")))
 Title: sugaR
 Description: Settle handle for remote services.
   The package focuses on settling handle for remote services (thredds, ... etc).
@@ -13,7 +12,7 @@ Imports:
     jsonlite,
     rabarbRa
 Remotes:
-    jeanmarielepioufle/rabarbRa
+    jeanmarie-eu/rabarbRa
 License: GPL-3
 Encoding: UTF-8
 LazyData: false
